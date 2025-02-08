@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleVar.css">
+    <title>Variabler i JS</title>
+</head>
+<body>
+    <style>
+        body{
+            padding: 5px;
+
+        }
+        #intro .variabler{
+            margin: 1rem 2rem 0 2rem;
+            
+
+        }
+        #intro .variabler article {
+            background-color:#cde0ff;
+            margin: 0 20%;
+            border: 1px solid ;
+    
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #intro .variabler .eksempel{
+            display: flex;
+            justify-content: center;
+            padding: 2rem 0 0 2rem;
+        }
+        #intro .variabler .eksempel img{
+            padding: 0 0 25px 0;
+        }
+        #intro .variabler .eksempel ul{
+            font-size: 29px;
+            list-style: none;
+            padding: 0 0 0 .25rem;
+        }
+        .variabler article img{
+            margin: 0 20% 0 25%;
+            padding: 10px 0 10px 0;
+        }
+     
+    </style>
+    <a href="/index.html" style="text-decoration: none; color:black;background-color: white; font-size: 35px; border: 2px solid black;"> Back to main</a>
+    <section id="intro">
+        <div class="variabler">
+            <article>
+                <h2 style="text-align: center;">Intern koding i et HTML dokument</h2>
+
+                <p>Når vi skal skrive javaScript i et HTML-dokument må koden ligge inne i et script-element. Det er akkurat det samme som når vi skriver CSS kode i et style-element. Et script-element består av 
+                    taggen <strong> script</strong>. All kode som ligger mellom starttaggen og sluttaggen må være javaScript-kode.
+                </p>
+                <br>
+                <p style="text-align: center;"><strong>Prøv kodeeditoren som finnes i denne siden eller click <a style="text-decoration: none; color: black;" href="htmlEditor.html">her.</a> </strong></p>
+                <img src="images/javaScript20.png" alt="">
+                <h2 style="text-align: center;">Variabler i JavaScript</h2>
+                <p>I JavaScript kan vi definere verdier som variabler eller konstanter. Forskjellen på disse  er at verdien til en variabel 
+                    kan endre seg i løpet av kjøring av programmet, for eksempel en variabel for antall poeng en spiller har, mens en konstant ikke kan endre seg.
+                    eksempel på en kosntant varibel kan være maksimalt antall tegn det er lov å skrive i en melding. Vi definerer variabler med kodeordet <span style="font-weight: 700;">let</span>
+                    og konstanter med kodeordet <strong>const</strong>. Noen ganger vil du kanskje se at javaScript bruker kodeordet <strong>var</strong>.
+                    Det var vanlig i tiden før <strong>let</strong> og <strong>const</strong> ble innført i javaScript.
+
+                </p>
+                
+            </article>
+            <div class="eksempel">
+            
+
+                <img src="images/javaScript3.png" alt="">
+                <ul>
+                    <li> Verdien til <strong>const</strong> variabel "result"  kan ikke endres</li>
+                    <li> verdien til <strong>var</strong> variabel "input" kan endres </li>
+                    <li>verdien til <strong>let</strong> variabel "warning" kan endres</li>
+                </ul>
+            </div>
+            <article>
+                <h2 style="text-align: center;">Variabler med tekst og tall som verdier</h2>
+
+                <p>Når du skriver kode med variabler må du tenke på hva slags type verdi du har med å gjøre. Kanskje det skal være tekst, heltall, desimaltall
+                    , prosent eller valuta . På samme måte må vi velge hvilken type verdi vi skal bruke når vi programmerer. Et eksempel:
+
+                </p>
+                <img style="width: 700px;" src="images/variabler.png" alt="">
+                <br>
+                <h2 style="text-align: center;">Variabler med tallverdier</h2>
+                <p>Verdien til en variable kan være et tall. Hvis tallet er et desimaltall, bruker vi puktum "<strong>.</strong>" som desimaltegn. Vi definerer variabler med navn og verdi slik: </p>
+                <img src="images/variabler2.png" alt="">
+
+                <br>
+                <h2 style="text-align: center;">...Men hva om du gjør dette?</h2>
+                <img src="images/variabler3.png" alt="">
+                <p style="text-align: center;">skriv koden ovenfor og kjør koden <a style="text-decoration: none; color: red;" href="htmlEditor.html">her</a> </p>
+                <p></p>
+                
+            </article>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    
+</body>
+</html>
